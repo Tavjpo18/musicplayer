@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ServiceBoundMusic</string>
+    <string name="on" />
+    <string name="Start" />
+</resources>

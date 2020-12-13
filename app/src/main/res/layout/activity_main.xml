@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <LinearLayout
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/custom_background"
+    android:weightSum="10" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nguyễn Trần Tiến - 17015791  "
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/textView1"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:layout_height="350dp"
+        android:layout_width="match_parent"
+        android:id="@+id/imgviewdia"
+        android:src="@drawable/avar"
+        android:layout_weight="10"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FFFFFF"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Trên tình bạn dưới tình yêu - MIN"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/songtitle"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"/>
+
+    -<LinearLayout
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="00:00"
+        android:id="@+id/tvstart"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_weight="0.5"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <SeekBar
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/sb"
+        android:layout_weight="9"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="03:10"
+        android:id="@+id/tvend"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_weight="0.5"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+</LinearLayout>
+
+    -<LinearLayout
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Start"
+        android:id="@+id/btnStart"
+        android:background="@null"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginRight="15dp"
+        />
+
+    <ImageButton
+        android:layout_height="60dp"
+        android:background="@null"
+        android:layout_width="60dp"
+        android:id="@+id/imgbtnplay"
+        android:src="@drawable/play"
+        android:layout_marginRight="15dp"
+        android:scaleType="fitXY"/>
+
+
+    <ImageButton
+        android:layout_height="60dp"
+        android:background="@null"
+        android:layout_width="60dp"
+        android:id="@+id/imgbtnPause"
+        android:src="@drawable/pause"
+        android:layout_marginRight="15dp"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:layout_height="60dp"
+        android:background="@null"
+        android:layout_width="60dp"
+        android:id="@+id/imgbtnmoveon"
+        android:src="@drawable/fastfwd"
+        android:layout_marginRight="15dp"
+        android:scaleType="fitXY"/>
+
+</LinearLayout>
+
+</LinearLayout>
